@@ -16,14 +16,17 @@
     <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="styles.css">
 
+    <!-- googleFont/icon -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
 
 </head>
 
 <body>
 
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="#">To Do</a>
+        <div class="container-fluid" >
+            <img src="img/logo/To Do Trips(500x500)/1(sem fundo).png" alt="Logo" class="img-logo"  id="id-logo">
+            <!-- <a class="navbar-brand" href="#">To Do Trips</a> -->
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -52,23 +55,29 @@
                         <a class="nav-link disabled" aria-disabled="true">Disabled</a>
                     </li>
                 </ul>
-                <form class="d-flex" role="search">
-                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                    <button class="btn btn-outline-success" type="submit">Search</button>
-                </form>
+                
             </div>
+            <form class="d-flex" role="search" >
+                <input  class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn-outline-success" type="submit"><span class="material-symbols-outlined">
+                    search
+                    </span></button>
+            </form>
         </div>
+        
     </nav>
 
-    <!-- <header class="cabecalho" id="-cabecalho">
-        <h1>To Do</h1>
-    </header> -->
-
+    
     <main class="main" id="-main">
         <div class="div-content-01" id="div-01">
             <div class="div-card">
+                <div class="div-titulo">
+                    <h3 class="titulo-card"><span class="material-symbols-outlined">
+                        surfing
+                        </span>Dicas de Passeios</h3>
+                    </div>
                 <ul class="ul-card">
-                <li class="li-card">
+                        <li class="li-card">
                     <div class="card">
                         <img class="card-img-top" src="img/foto-card-01.jpeg" alt="Imagem de capa do card">
                         <div class="card-body">

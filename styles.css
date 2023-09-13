@@ -1,8 +1,8 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Black+And+White+Picture&family=Fascinate&family=Freckle+Face&family=Lemon&family=Oi&family=Oxygen:wght@300;400;700&family=Poppins:wght@100;200;300;400;500;600;700;800&family=Rampart+One&family=Sedgwick+Ave&display=swap');
 
 body{
   font-family: "Poppins";
-  background:linear-gradient(135deg,#630863 , #108f5a 45%, #e20fe2);
+  background:#f7f1e3;
 }
 
 main {
@@ -14,7 +14,6 @@ main {
 header {
   width: 100%;
   height: 80px;
-  padding-top: 20px;
   text-align: center;
   align-items: center;
   justify-content: center;
@@ -25,8 +24,8 @@ a{
 }
 
 .navbar {
-  height: 80px;
-  background: #71368a;
+  height: 90px;
+  background: #d1ccc0;
   color: black;
   position: relative;
   display: -ms-flexbox;
@@ -36,10 +35,10 @@ a{
   -ms-flex-align: center;
   align-items: center;
   -ms-flex-pack: justify;
-  justify-content: space-between;
+  justify-content: center;
   padding: 0.5rem 1rem;
   position: relative;
-  min-height: 50px;
+  min-height: 30px;
   border: 1px solid transparent;
 }
 
@@ -48,20 +47,35 @@ a{
   border-color: #e7e7e7;
 }
 
-.d-flex{
+.img-logo{
   display: flex;
-  align-items: flex-end;
-  text-align: left;
+  justify-items: center;
+  width:90px; 
+  height:80px;
+}
+.d-flex{
+  margin-right: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  text-align: start;
 }
 
 .btn-outline-success{
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+  width: 20%;
+  height: 40px;
   margin-left: 4px;
   color: #000;
   border-color: #000;
+  
 }
 
 .div-content-01 {
-  margin-top: 50px;
+  margin-top: 10px;
   width: 100%;
   height: 80vh;
   display: flex;
@@ -71,31 +85,25 @@ a{
   align-items: center;
 }
 
-.div-card {
-  /* border-radius: 15px; */
-  /* margin: 150px; */
-}
-
 .ul-card {
   display: flex;
   text-align: center;
   align-items: center;
-  gap: 2px;
-  min-height: calc(100vh - 152px);
+  gap: 10px;
   justify-content: center;
-  margin-top: 2rem;
   margin-bottom: 2rem;
-  /* background-color: red; */
 }
 
 .card {
   border-radius: 15px;
   width: 14rem;
-  height: 70vh;
-  box-shadow: 0px 0px 15px 0.9px #321341;
+  height: 50vh;
+  background-color: #dfe4ea;
+  box-shadow: 0px 0px 15px 0.9px #000;
 }
 
 .card-body{
+  height: 20vh;
   border-radius: 15px;
   background-color: #ecf0f1;
 }
@@ -111,4 +119,19 @@ a{
   width: 100%;
   height: 200px;
   border-radius: 15px;
+}
+
+.titulo-card{
+  margin-top: 50px;
+  margin-bottom: 20px;
+  font-family: "Rampart One";
+  font-size: 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.div-titulo{
+  display: flex;
+  align-items: center;
+  justify-items: normal;
 }
